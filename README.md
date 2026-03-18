@@ -227,10 +227,6 @@ Pipeline fails safely when:
 | Yes  | 20        | Success | No           |
 | No   | 0         | Failed  | No           |
 
-## ✅ 2. Incremental Load
-Loads only new/updated records
 
-```sql
-SELECT * 
 FROM source_sales
 WHERE updated_at >= last_loaded;
